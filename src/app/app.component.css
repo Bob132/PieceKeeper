@@ -1,0 +1,88 @@
+.header {
+    background-color: #EEEEEE;
+    overflow: hidden;
+    padding: 0.4vw 2vw;
+}
+
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.header a.logo {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.3s;
+}
+
+.header a.logo:hover {
+    color: grey;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right a {
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-right a:hover {
+    color: grey;
+}
+
+.nav-authentication {
+    border-left: 1px solid black;
+}
+
+.nav-menu {
+    
+}
+
+.main {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.card {
+    display: block;
+    width: 27.73333vw;
+    margin-right: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+.card img{
+    width: 100%;
+}
+
+@media (min-width: 1001px) {
+    .cards {
+        width: 1050px;  
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card { 
+        width: 196px;
+    }
+}
+
+/*
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+}
+*/
